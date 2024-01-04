@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="border.css">
+</head>
+
+<body>
+    <main>
+        <h1>Random Password Generator</h1>
+        <p>Create strong and secure passwords to keep your account safe online.</p>
+        <div class="cont">
+            <div class="images"></div>
+            <div class="maker">
+                <div class="show">
+                    <input type="text" name="" id="" disabled>
+                    <div class="strength"></div>
+                    <div class="reset">
+                        <svg class="svgReset" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2">
+                                <path d="M3 12a9 9 0 1 0 9-9a9.75 9.75 0 0 0-6.74 2.74L3 8" />
+                                <path d="M3 3v5h5" />
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="copy">Copy</div>
+                </div>
+                <span class="passlength"></span>
+                <div class="passLen">
+                    <span class="span">Password <br>length:</span>
+                    <div class="range">
+                        <span class="minus tap"></span>
+                        <input type="range" name="" id="rangeInput" min="1" max="20" value="10">
+                        <span class="plus tap"></span>
+                    </div>
+                </div>
+                <div class="charused">
+                    <span class="span">Characters <br>used:</span>
+                    <div class="options">
+                        <input type="checkbox" name="abc" id="abc" checked>
+                        <label class="abc" for="abc">abc</label>
+                        <input type="checkbox" name="ABC" id="ABC" checked>
+                        <label for="ABC">ABC</label>
+                        <input type="checkbox" name="number" id="number" checked>
+                        <label for="number">123</label>
+                        <input type="checkbox" name="symbol" id="symbol">
+                        <label for="symbol">#$&</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <div class="main2">
+        <div class="main2cont">
+            <h1>What makes a password strong?</h1>
+            <div class="boxes">
+                <div class="box box-1">
+                    <img src="https://static3.avast.com/10003458/web/i/v3/components/icons/feature-icons/80x80/password-checkmark--key-tick.svg"
+                        alt="">
+                    <h1>Long</h1>
+                    <p>The longer a password, the more secure it is. A strong password should be at least 10 characters
+                        long.</p>
+                </div>
+                <div class="box box-2">
+                    <img src="https://static3.avast.com/10003458/web/i/v3/components/icons/feature-icons/80x80/https-encryption--lock.svg"
+                        alt="">
+                    <h1>Complex</h1>
+                    <p>Strong passwords use a combination of letters, numbers, cases, and symbols to form an
+                        unpredictable string of characters that doesn't resemble words or names.</p>
+                </div>
+                <div class="box box-3">
+                    <img src="https://static3.avast.com/10003458/web/i/v3/components/icons/feature-icons/80x80/sensitive-data-shield--document-fingerprint.svg"
+                        alt="">
+                    <h1>Unique</h1>
+                    <p>A strong password should be unique to each account to reduce vulnerability in the event of a
+                        hack.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
