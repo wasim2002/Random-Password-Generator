@@ -73,7 +73,7 @@ p {
 .show {
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   gap: 1rem;
   position: relative;
 }
@@ -125,7 +125,7 @@ p {
 .reset {
   /* display: inline-block; */
   position: absolute;
-  right: 9rem;
+  right: 9.5rem;
   cursor: pointer;
 }
 .svgReset {
