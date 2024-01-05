@@ -1,0 +1,12 @@
+@media (max-width: 2562px) {
+  .images {
+    width: 55%;
+  }
+  .show{
+    gap: 5rem;
+  }
+  .show input{
+    width: 500px;
+    height: 5rem;
+  }
+}
