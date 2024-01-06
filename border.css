@@ -7,15 +7,15 @@
 .images{
     border: 1px solid black;
 }
-.images::before{
+/* .images::before{
     border:1px solid turquoise;
-}
-.maker,.show,.passLen{
+}*/
+.maker{
     border: 1px solid violet;
 }
-.span,.range,.options{
+/*.span,.range,.options{
     border: 1px solid black;
-}
+} */
 /* .main2{
     border: 1px solid green;
 } */

@@ -101,10 +101,57 @@
 }
 @media (max-width:1700px){
   .show input{
-    height:4.855rem ;
+    height:4.8rem ;
     font-size: 1.48rem;
   }
   .copy{
     font-size: 1.68rem;
+  }
+  .span{
+    font-size: 1.65rem;
+  }
+  .box p{
+    font-size: 1.1rem;
+  }
+}
+@media(max-width:1650px){
+  .show input{
+    height: 4.76rem;
+    font-size: 1.42rem;
+  }
+  .copy{
+    font-size: 1.63rem;
+  }
+  .box p{
+    font-size: 1.01rem;
+  }
+  .span{
+    font-size: 1.6rem;
+  }
+}
+@media (max-width:1550px){
+  .show input{
+    height: 4.5rem;
+    font-size: 1.4rem;
+  }
+  .span{
+    font-size: 1.5rem;
+  }
+  .tap{
+    height: 48px;
+    width: 48px;
+    border: 1.5px solid #071d2b;
+  }
+}
+@media(max-width:1480px){
+  .cont{
+    gap: 1rem;
+  }
+  .show input{
+    height: 4.1rem;
+    font-size: 1.25rem;
+  }
+  .copy{
+    font-size: 1.5rem;
   }
 }
