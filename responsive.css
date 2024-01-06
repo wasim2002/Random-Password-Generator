@@ -76,82 +76,182 @@
   .reset {
     right: 11.5rem;
   }
-  .span{
+  .span {
     line-height: 2.2rem;
   }
 }
-@media (max-width:1790px){
-  .reset{
+@media (max-width: 1790px) {
+  .reset {
     right: 11rem;
   }
-  .strength{
+  .strength {
     right: 13.5rem;
   }
-  .span{
+  .span {
     line-height: 2rem;
   }
 }
-@media(max-width:1750px){
-  .show input{
+@media (max-width: 1750px) {
+  .show input {
     height: 4.9rem;
   }
-  .copy{
+  .copy {
     font-size: 1.7rem;
   }
 }
-@media (max-width:1700px){
-  .show input{
-    height:4.8rem ;
+@media (max-width: 1700px) {
+  .show input {
+    height: 4.8rem;
     font-size: 1.48rem;
   }
-  .copy{
+  .copy {
     font-size: 1.68rem;
   }
-  .span{
+  .span {
     font-size: 1.65rem;
   }
-  .box p{
+  .box p {
     font-size: 1.1rem;
   }
 }
-@media(max-width:1650px){
-  .show input{
+@media (max-width: 1650px) {
+  .show input {
     height: 4.76rem;
     font-size: 1.42rem;
   }
-  .copy{
+  .copy {
     font-size: 1.63rem;
   }
-  .box p{
+  .box p {
     font-size: 1.01rem;
   }
-  .span{
+  .span {
     font-size: 1.6rem;
   }
 }
-@media (max-width:1550px){
-  .show input{
+@media (max-width: 1550px) {
+  .show input {
     height: 4.5rem;
     font-size: 1.4rem;
   }
-  .span{
+  .span {
     font-size: 1.5rem;
   }
-  .tap{
+  .tap {
     height: 48px;
     width: 48px;
     border: 1.5px solid #071d2b;
   }
 }
-@media(max-width:1480px){
+@media (max-width: 1480px) {
+  .cont {
+    gap: 1rem;
+  }
+  .show input {
+    height: 4.1rem;
+    font-size: 1.25rem;
+    width: 525px;
+  }
+  .strength {
+    height: 2.5rem;
+  }
+  .copy {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 1400px) {
+  .show input {
+    height: 3.5rem;
+    font-size: 1.125rem;
+    width: 495px;
+  }
+  .strength {
+    height: 2.1rem;
+    right: 12.8rem;
+  }
+  .strength::before {
+    font-size: 16px;
+  }
+  .reset {
+    right: 10.2rem;
+  }
+  .svgReset {
+    height: 23px;
+    width: 23px;
+  }
+  .copy {
+    font-size: 1.2rem;
+  }
+  .span {
+    font-size: 1.4rem;
+    line-height: 2.15rem;
+  }
+  .tap {
+    height: 44px;
+    width: 44px;
+    border: 1px solid #071d2b;
+  }
+  .minus::before {
+    font-size: 30px;
+  }
+  .plus::before {
+    font-size: 30px;
+  }
+  .passlength {
+    height: 2rem;
+    width: 2rem;
+    border: 1px solid #071d2b;
+    font-size: 17px;
+  }
+  input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+  }
+  label {
+    font-size: 1.375rem;
+  }
+  .box img {
+    height: 80px;
+    width: 80px;
+  }
+  .box h1 {
+    font-size: 1.125rem;
+  }
+  .box p {
+    font-size: 0.845rem;
+    line-height: 1.4rem;
+  }
+}
+@media(max-width:1368px){
   .cont{
+    gap: 2.5rem;
+  }
+  .images{
+    width: 45%;
+  }
+  .show{
     gap: 1rem;
   }
   .show input{
-    height: 4.1rem;
-    font-size: 1.25rem;
+    width: 488px;
+    font-size: 1.125rem;
+    height: 3rem;
+  }
+  .strength{
+    height: 1.9rem;
+    right: 12rem;
+  }
+  .strength::before{
+    font-size: 15px;
+  }
+  .reset{
+    right: 9rem;
+  }
+  .svgReset{
+    height: 22px;
+    width: 22px;
   }
   .copy{
-    font-size: 1.5rem;
+    font-size: 1.125rem;
   }
 }
