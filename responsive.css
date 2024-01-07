@@ -223,50 +223,169 @@
   }
 }
 
-@media(max-width:1450px){
-  .cont{
+@media (max-width: 1450px) {
+  .cont {
     gap: 0.5rem;
   }
-  .show input{
+  .show input {
     width: 480px;
   }
-  .strength{
+  .strength {
     right: 11.5rem;
   }
 }
-@media(max-width:1350px){
-  .show input{
+@media (max-width: 1350px) {
+  .show input {
     width: 452px;
     font-size: 1.12rem;
   }
-  .strength{
+  .strength {
     height: 1.8rem;
     right: 11rem;
     width: 6.2rem;
     border-radius: 11px;
   }
-  .strength::before{
+  .strength::before {
     font-size: 14px;
   }
-  .copy{
+  .copy {
     font-size: 1rem;
   }
-  .span{
+  .span {
     font-size: 1.25rem;
     line-height: 2.1rem;
   }
-  .tap{
+  .tap {
     height: 42px;
     width: 42px;
   }
-  #rangeInput{
+  #rangeInput {
     width: 230px;
   }
-  input[type="checkbox"]{
+  input[type="checkbox"] {
     width: 22px;
     height: 22px;
   }
-  label{
+  label {
     font-size: 1.3rem;
+  }
+  .box p {
+    font-size: 0.84rem;
+    line-height: 1.2rem;
+  }
+}
+@media (max-width: 1300px) {
+  .show input {
+    padding: 12px 20px;
+    width: 425px;
+  }
+  .copy {
+    font-size: 0.95rem;
+  }
+}
+@media (max-width: 1250px) {
+  .cont {
+    width: 75%;
+  }
+  .strength {
+    right: 12.5rem;
+  }
+  .reset {
+    right: 10.2rem;
+  }
+  .box {
+    width: 30%;
+  }
+}
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 3.1rem;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+  .cont {
+    width: 77%;
+  }
+  .images {
+    width: 47%;
+  }
+}
+@media (max-width: 1150px) {
+  .cont {
+    width: 80%;
+    gap: 0.65rem;
+  }
+  .images {
+    width: 49%;
+  }
+  .strength {
+    right: 12rem;
+  }
+  .reset {
+    right: 9.5rem;
+  }
+  input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+  }
+  label {
+    font-size: 1.2rem;
+    margin-right: 25px;
+  }
+  .main2cont > h1 {
+    font-size: 2.6rem;
+  }
+}
+@media (max-width: 1100px) {
+  h1 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.06rem;
+  }
+  .images {
+    width: 50%;
+  }
+  .show input {
+    width: 410px;
+    font-size: 1.1rem;
+  }
+  .strength {
+    right: 11rem;
+  }
+  .reset {
+    right: 8.6rem;
+  }
+  .show {
+    gap: 1.35rem;
+  }
+  .copy {
+    font-size: 0.9rem;
+    padding: 11px 23px;
+  }
+  .span {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+  .passlength {
+    top: 9rem;
+    right: 10rem;
+  }
+  .tap {
+    height: 40px;
+    width: 40px;
+  }
+  #rangeInput {
+    width: 220px;
+  }
+  .main2cont {
+    width: 75%;
+  }
+  .boxes {
+    gap: 1.5rem;
+  }
+  .box {
+    padding: 1.4rem;
   }
 }
