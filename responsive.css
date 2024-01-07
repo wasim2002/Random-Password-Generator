@@ -116,11 +116,11 @@
 }
 @media (max-width: 1650px) {
   .show input {
-    height: 4.76rem;
-    font-size: 1.42rem;
+    height: 4rem;
+    font-size: 1.3rem;
   }
   .copy {
-    font-size: 1.63rem;
+    font-size: 1.4rem;
   }
   .box p {
     font-size: 1.01rem;
@@ -129,37 +129,7 @@
     font-size: 1.6rem;
   }
 }
-@media (max-width: 1550px) {
-  .show input {
-    height: 4.5rem;
-    font-size: 1.4rem;
-  }
-  .span {
-    font-size: 1.5rem;
-  }
-  .tap {
-    height: 48px;
-    width: 48px;
-    border: 1.5px solid #071d2b;
-  }
-}
-@media (max-width: 1480px) {
-  .cont {
-    gap: 1rem;
-  }
-  .show input {
-    height: 4.1rem;
-    font-size: 1.25rem;
-    width: 525px;
-  }
-  .strength {
-    height: 2.5rem;
-  }
-  .copy {
-    font-size: 1.4rem;
-  }
-}
-@media (max-width: 1400px) {
+@media (max-width: 1580px) {
   .show input {
     height: 3.5rem;
     font-size: 1.125rem;
@@ -222,36 +192,33 @@
     line-height: 1.4rem;
   }
 }
-@media (max-width: 1368px){
-  .cont{
-    gap: 2.5rem;
-  }
-  .images{
+@media (max-width: 1550px) {
+  .images {
     width: 45%;
   }
-  .show{
+  .show {
     gap: 1rem;
   }
-  .show input{
+  .show input {
     width: 488px;
     font-size: 1.125rem;
     height: 3rem;
   }
-  .strength{
+  .strength {
     height: 1.9rem;
     right: 12rem;
   }
-  .strength::before{
+  .strength::before {
     font-size: 15px;
   }
-  .reset{
+  .reset {
     right: 9rem;
   }
-  .svgReset{
+  .svgReset {
     height: 22px;
     width: 22px;
   }
-  .copy{
+  .copy {
     font-size: 1.125rem;
   }
 }
