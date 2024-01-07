@@ -222,3 +222,51 @@
     font-size: 1.125rem;
   }
 }
+
+@media(max-width:1450px){
+  .cont{
+    gap: 0.5rem;
+  }
+  .show input{
+    width: 480px;
+  }
+  .strength{
+    right: 11.5rem;
+  }
+}
+@media(max-width:1350px){
+  .show input{
+    width: 452px;
+    font-size: 1.12rem;
+  }
+  .strength{
+    height: 1.8rem;
+    right: 11rem;
+    width: 6.2rem;
+    border-radius: 11px;
+  }
+  .strength::before{
+    font-size: 14px;
+  }
+  .copy{
+    font-size: 1rem;
+  }
+  .span{
+    font-size: 1.25rem;
+    line-height: 2.1rem;
+  }
+  .tap{
+    height: 42px;
+    width: 42px;
+  }
+  #rangeInput{
+    width: 230px;
+  }
+  input[type="checkbox"]{
+    width: 22px;
+    height: 22px;
+  }
+  label{
+    font-size: 1.3rem;
+  }
+}
