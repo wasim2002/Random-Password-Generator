@@ -222,7 +222,7 @@
     line-height: 1.4rem;
   }
 }
-@media(max-width:1368px){
+@media (max-width: 1368px){
   .cont{
     gap: 2.5rem;
   }
