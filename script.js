@@ -29,18 +29,7 @@ function range() {
     run()
 }
 range()
-plus.addEventListener("click", function () {
-    rangeInput.value++
-    if (passlength.textContent < 20) {
-        passlength.textContent++
-    }
-})
-minus.addEventListener("click", function () {
-    rangeInput.value--
-    if (passlength.textContent > 1) {
-        passlength.textContent--
-    }
-})
+
 function run() {
     const chart = {
         abc: "abcdefghijklmnopqrstuvwxyz",
@@ -61,7 +50,20 @@ function run() {
     }
     display.value = Password
 }
-
+plus.addEventListener("click", function () {
+    rangeInput.value++
+    if (passlength.textContent < 20) {
+        passlength.textContent++
+        run()
+    }
+})
+minus.addEventListener("click", function () {
+    rangeInput.value--
+    if (passlength.textContent > 1) {
+        passlength.textContent--
+        run()
+    }
+})
 rangeInput.addEventListener("input", range);
 options.forEach(function (checkB) {
     checkB.addEventListener("change", function () {
