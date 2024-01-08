@@ -348,14 +348,14 @@
     width: 50%;
   }
   .show input {
-    width: 410px;
+    width: 420px;
     font-size: 1.1rem;
   }
   .strength {
-    right: 11rem;
+    right: 10.5rem;
   }
   .reset {
-    right: 8.6rem;
+    right: 8rem;
   }
   .show {
     gap: 1.35rem;
@@ -387,5 +387,14 @@
   }
   .box {
     padding: 1.4rem;
+  }
+}
+@media(max-width:1030px){
+  .cont{
+    width: 88%;
+    gap: 0.5rem;
+  }
+  .images{
+    width: 54%;
   }
 }
