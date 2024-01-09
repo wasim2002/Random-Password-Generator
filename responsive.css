@@ -529,4 +529,54 @@
     font-size: 0.8rem;
     margin-top: 0.7rem;
   }
+  .cont{
+    width: 89%;
+  }
+  .span{
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+  #rangeInput{
+    width: 200px;
+    margin: 0 15px;
+  }
+  .tap{
+    height: 37px;
+    width: 37px;
+  }
+  .passlength{
+    right: 9.5rem;
+    font-size: 15px;
+  }
+  input[type="checkbox"]{
+    width: 18px;
+    height: 18px;
+  }
+  label{
+    font-size: 1.1rem;
+    margin-left: 6px;
+    margin-right: 20px;
+  }
+  .main2cont>h1{
+font-size: 1.8rem;
+  }
+  .boxes{
+    gap: 0.5rem;
+  }
+  .box{
+    padding: 1.1rem 0.6rem;
+  }
+  .box img{
+    height: 60px;
+    width: 60px;
+  }
+  .box h1{
+    font-size: 0.9rem;
+  }
+  .box p{
+    line-height: 1rem;
+  }
+  .main2{
+    height: 36rem;
+  }
 }
