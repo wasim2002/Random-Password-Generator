@@ -235,6 +235,9 @@
   }
 }
 @media (max-width: 1350px) {
+  main {
+    height: 35rem;
+  }
   .show input {
     width: 452px;
     font-size: 1.12rem;
@@ -411,172 +414,230 @@
   }
 }
 @media (max-width: 950px) {
+  main {
+    height: 33rem;
+  }
   .cont {
+    height: 74%;
     width: 94%;
   }
   .strength {
-    right: 11.5rem;
+    right: 12.5rem;
   }
   .reset {
-    right: 9.5rem;
+    right: 10rem;
   }
   label:nth-last-child(1) {
     margin-right: 10px;
   }
-  .plus{
+  .plus {
     margin-right: 10px;
   }
-  .main2cont{
+  .main2cont {
     width: 90%;
   }
 }
-@media(max-width:900px){
-  .strength{
+@media (max-width: 900px) {
+  .strength {
     right: 10.5rem;
   }
-  .reset{
+  .reset {
     right: 8rem;
   }
-  h1{
+  h1 {
     font-size: 2.8rem;
   }
-  p{
+  p {
     font-size: 1rem;
   }
 }
-@media(max-width:850px){
-  .cont{
-    align-items: center;
-    margin-top: 2rem;
-    height: 90%;
+
+@media (max-width: 850px) {
+  main{
+    height: 30rem;
   }
-  h1{
+  .cont {
+    align-items: center;
+    margin-top: 3rem;
+    height: 60%;
+  }
+  h1 {
     font-size: 2.5rem;
   }
-  p{
+  p {
     font-size: 0.9rem;
   }
-  .images{
+  .images {
     width: 100%;
   }
-  .show{
+  .show {
     justify-content: center;
   }
-  .passlength{
-    top: 5rem;
+  .passlength {
+    top: 5.6rem;
     right: 10.5rem;
   }
-  .main2cont>h1{
+  .main2cont > h1 {
     font-size: 2.2rem;
   }
-  .boxes{
+  .boxes {
     gap: 1rem;
   }
-  .box img{
+  .box img {
     height: 65px;
     width: 65px;
   }
-  .box h1{
+  .box h1 {
     font-size: 1rem;
   }
-  .box p{
+  .box p {
     font-size: 0.8rem;
     line-height: 1.15rem;
   }
 }
-@media(max-width:800px){
-  .cont{
+
+@media (max-width: 800px) {
+  .cont {
     width: 81%;
   }
-  .images{
+  .images {
     margin-bottom: 1rem;
   }
-  .strength{
+  .strength {
     width: 5.6rem;
   }
-  .strength::before{
+  .strength::before {
     font-size: 13px;
   }
 }
-@media(max-width:750px){
-  .cont{
+@media (max-width: 750px) {
+  .cont {
     width: 82%;
   }
-  .box{
+  .box {
     padding: 1.4rem 1rem;
   }
-  .box p{
+  .box p {
     font-size: 0.75rem;
     line-height: 1.1rem;
   }
 }
-@media(max-width:700px){
-  h1{
+@media (max-width: 700px) {
+  h1 {
     font-size: 2.2rem;
   }
-  .cont{
+  .cont {
     width: 83%;
   }
-  label{
+  label {
     margin-right: 15px;
   }
 }
-@media(max-width:650px){
-  h1{
+@media (max-width: 650px) {
+  h1 {
     font-size: 2rem;
   }
-  p{
+  p {
     font-size: 0.8rem;
     margin-top: 0.7rem;
   }
-  .cont{
+  .cont {
     width: 89%;
+    flex-direction: column-reverse;
   }
-  .span{
+  .maker {
+    justify-content: space-between;
+  }
+  .span {
     font-size: 1.1rem;
     line-height: 1.5rem;
   }
-  #rangeInput{
+  #rangeInput {
     width: 200px;
     margin: 0 15px;
   }
-  .tap{
+  .tap {
     height: 37px;
     width: 37px;
   }
-  .passlength{
+  .passlength {
     right: 9.5rem;
     font-size: 15px;
   }
-  input[type="checkbox"]{
+  input[type="checkbox"] {
     width: 18px;
     height: 18px;
   }
-  label{
+  label {
     font-size: 1.1rem;
     margin-left: 6px;
     margin-right: 20px;
   }
-  .main2cont>h1{
-font-size: 1.8rem;
+  .main2cont > h1 {
+    font-size: 1.8rem;
   }
-  .boxes{
+  .boxes {
     gap: 0.5rem;
   }
-  .box{
+  .box {
     padding: 1.1rem 0.6rem;
   }
-  .box img{
+  .box img {
     height: 60px;
     width: 60px;
   }
-  .box h1{
+  .box h1 {
     font-size: 0.9rem;
   }
-  .box p{
+  .box p {
     line-height: 1rem;
   }
-  .main2{
+  .main2 {
     height: 36rem;
+  }
+}
+@media (max-width: 600px) {
+  .cont {
+    width: 90%;
+  }
+  .show input {
+    font-size: 0.9rem;
+    padding: 12px 15px;
+  }
+  .strength {
+    width: 5.2rem;
+  }
+  .strength::before {
+    font-size: 12px;
+  }
+  .reset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .svgReset {
+    height: 20px;
+    width: 20px;
+  }
+  .images {
+    width: 50%;
+  }
+  .boxes {
+    justify-content: space-between;
+  }
+  .box {
+    width: 33%;
+  }
+}
+@media(max-width:570px){
+  .strength{
+    width: 5.1rem;
+    right: 9.7rem;
+  }
+  .reset{
+    right: 7.5rem;
+  }
+  .show{
+    gap: 1rem;
   }
 }
