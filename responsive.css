@@ -689,7 +689,7 @@
   .passLen {
     flex-direction: column;
     position: relative;
-    margin-top: 0.5rem;
+    margin-top: 3.5rem;
   }
   .span {
     position: absolute;
@@ -705,11 +705,12 @@
     right: 7rem;
   }
   .charused {
-    position: relative;
     justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
   }
   .charused .span {
-    top: -3rem;
+    position: static;
   }
   .main2 {
     height: 50rem;
@@ -731,17 +732,17 @@
 }
 
 @media (max-width: 450px) {
-  .show input{
+  .show input {
     width: 360px;
   }
-  .strength{
+  .strength {
     width: 4.9rem;
-    right: 3.5rem;
+    right: 2.5rem;
   }
-  .strength::before{
+  .strength::before {
     padding-left: 5px;
   }
-  .reset{
-    right: 1.5rem;
+  .reset {
+    right: 0.8rem;
   }
 }
