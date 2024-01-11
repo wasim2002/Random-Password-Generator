@@ -85,6 +85,7 @@ p {
   padding: 12px 28px;
   border-radius: 28px;
   height: 3rem;
+  text-overflow: ellipsis;
 }
 .strength {
   /* background-color: transparent; */

@@ -729,6 +729,9 @@
   .images {
     height: 80%;
   }
+  .box p {
+    width: 100%;
+  }
 }
 
 @media (max-width: 450px) {
@@ -744,5 +747,46 @@
   }
   .reset {
     right: 0.8rem;
+  }
+  main p {
+    width: 85%;
+  }
+}
+@media (max-width: 400px) {
+  main p {
+    width: 90%;
+  }
+  .show input {
+    padding-right: 9rem;
+    text-overflow: ellipsis;
+  }
+  .span {
+    right: 7.5rem;
+  }
+  .passlength {
+    right: 5rem;
+  }
+}
+@media (max-width: 380px) {
+  .show input {
+    width: 350px;
+    padding-right: 9.23rem;
+  }
+  .reset {
+    right: 0.1rem;
+  }
+  .strength {
+    right: 1.8rem;
+  }
+  .main2cont > h1 {
+    margin-top: 4rem;
+  }
+}
+@media (max-width: 363px) {
+  .show input {
+    width: 330px;
+  }
+  .reset {
+    right: -0.3rem;
   }
 }
